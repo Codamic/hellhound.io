@@ -1,12 +1,23 @@
 ---
 ---
+.navbar {
+  margin-bottom: 0px !important;
+  border-radius: 0px;
+}
 
-@import "sass/reset";
-@import "sass/variables";
-@import "sass/mixins";
-@import "sass/typography";
-@import "sass/base";
-@import "sass/header";
-@import "sass/main";
-@import "sass/footer";
-@import "sass/media";
+.jumbotron {
+  text-align: center;
+}
+
+.content {
+  padding-top: 2em;
+}
+.logo {
+  text-indent: -9999px;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #afafaf;
+  padding: 15px;
+}
