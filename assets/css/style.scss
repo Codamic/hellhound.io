@@ -8,6 +8,7 @@ $color-quaternary: #f8f2f2 !default;
 $color-hover: #606c76 !default;
 $color-quinary: #e1e1e1 !default;
 $text_color: #4f4f4f !default;
+$nav: #fffbff;
 
 html, body, h1, h2, h3, h4, h5, a, p, span {
   //font-family: 'Roboto', sans-serif;
@@ -28,7 +29,7 @@ a:hover {
 }
 
 .navigation {
-  background-color: #fffbfb;//$color-initial;
+  background-color: $nav;
   border-bottom: .1rem solid $color-quaternary;
   display: block;
   height: 5.2rem;
@@ -39,6 +40,7 @@ a:hover {
   top: 0;
   width: 100%;
   z-index: 99;
+
 
   .navigation-list {
     list-style: none;
