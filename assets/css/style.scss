@@ -8,7 +8,7 @@ $color-quaternary: #f8f2f2 !default;
 $color-hover: #606c76 !default;
 $color-quinary: #e1e1e1 !default;
 $text_color: #4f4f4f !default;
-$nav: #fffbff;
+$nav: #fdfdfd;
 
 html, body, h1, h2, h3, h4, h5, a, p, span {
   //font-family: 'Roboto', sans-serif;
@@ -117,7 +117,7 @@ span.title {
 
 footer {
   padding-top: 0.5rem;
-  background-color: #fffbfb;
+  background-color: $nav;
   border-top: .1rem solid $color-quaternary;
   color: #4f4f4f;
   margin-bottom: 0.5rem;
